@@ -39,11 +39,16 @@ function Login() {
 
             {email !== "" && password !== "" && (
               <div>
-                <button className="mt-7 rounded-lg bg-zinc-900 p-3 font-semibold text-zinc-50">
+                <button
+                  onClick={() => alert("logged in!")}
+                  className="mt-7 rounded-lg bg-zinc-900 p-3 font-semibold text-zinc-50"
+                >
                   Sign In
                 </button>
                 <span>&nbsp;or&nbsp;</span>
-                <span className="underline-offset-8">return to store</span>
+                <NavLink to="/shop">
+                  <span className="underline-offset-8">return to store</span>
+                </NavLink>
               </div>
             )}
           </form>

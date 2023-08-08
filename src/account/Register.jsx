@@ -1,6 +1,7 @@
 import { useState } from "react";
 import SupportNav from "../components/SupportNav";
 import PageNav from "../components/PageNav";
+import { NavLink } from "react-router-dom";
 
 function Register() {
   const [firstName, setFirstName] = useState("");
@@ -73,10 +74,15 @@ function Register() {
                 </span>
               </label>
             </div>
-            <button className="mt-3 rounded-lg bg-zinc-900 p-3 font-semibold text-zinc-50">
+            <button
+              onClick={() => alert("registered")}
+              className="mt-3 rounded-lg bg-zinc-900 p-3 font-semibold text-zinc-50"
+            >
               Register
             </button>
-            <span>&nbsp;or&nbsp;</span> <span>return to store</span>
+            <NavLink to="/shop">
+              <span className="underline-offset-8">return to store</span>
+            </NavLink>
           </form>
         </div>
       </div>

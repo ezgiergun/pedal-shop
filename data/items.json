@@ -5,6 +5,7 @@
       "description": "From chicken pickin’ slapback to ethereal reverb to keep you drowning in inspiration for days on end.",
       "items": [
         {
+          "id": "238765",
           "name": "Slöer Stereo Ambient Reverb",
           "imageUrl": "https://placehold.co/615x615/blue/white",
           "price": 199.99,
@@ -12,6 +13,7 @@
           "description": "The Slöer Stereo Ambient Reverb provides lush, atmospheric reverb with deep ambient textures. Explore the sonic landscapes with this versatile pedal."
         },
         {
+          "id": "156890",
           "name": "Fable Granular Soundscape Generator",
           "imageUrl": "https://example.com/fable.jpg",
           "price": 249.99,
@@ -19,6 +21,7 @@
           "description": "The Fable Granular Soundscape Generator creates immersive soundscapes using granular synthesis. Get lost in a world of unique sonic possibilities."
         },
         {
+          "id": "709283",
           "name": "Melee Wall of Noise",
           "imageUrl": "https://example.com/melee.jpg",
           "price": 179.99,
@@ -26,6 +29,7 @@
           "description": "The Melee: Wall of Noise pedal is a powerful distortion unit that brings a wall of crushing sound to your setup. Perfect for heavy riffing and lead playing."
         },
         {
+          "id": "468927",
           "name": "ARP-87 Multi-Function Delay",
           "imageUrl": "https://example.com/arp87.jpg",
           "price": 219.99,
@@ -33,6 +37,7 @@
           "description": "The ARP-87 Multi-Function Delay features four delay modes and a unique X knob for versatile sound shaping. An essential tool for creative delay effects."
         },
         {
+          "id": "572891",
           "name": "D1 High-Fidelity Stereo Delay",
           "imageUrl": "https://example.com/d1.jpg",
           "price": 199.99,
@@ -40,6 +45,7 @@
           "description": "The D1 High-Fidelity Stereo Delay offers studio-grade delay effects with pristine audio quality. Experience rich and warm delay tones in stereo."
         },
         {
+          "id": "890354",
           "name": "Descent Reverb & Octave Machine",
           "imageUrl": "https://example.com/descent.jpg",
           "price": 239.99,
@@ -47,6 +53,7 @@
           "description": "The Descent Reverb/Octave Machine combines reverb and octave effects to create immersive ambient textures. Dive into lush sonic landscapes."
         },
         {
+          "id": "692481",
           "name": "Fathom Multi-Function Reverb",
           "imageUrl": "https://example.com/fathom.jpg",
           "price": 229.99,
@@ -54,6 +61,7 @@
           "description": "The Fathom Multi-Function Reverb offers a variety of reverb algorithms with deep editing capabilities. Create your dream reverbs."
         },
         {
+          "id": "298170",
           "name": "Lore Reverse Soundscape Generator",
           "imageUrl": "https://example.com/lore.jpg",
           "price": 189.99,
@@ -61,6 +69,7 @@
           "description": "The Lore Reverse Soundscape Generator creates ethereal reverse delay effects and otherworldly sounds. Unlock hidden dimensions of sound."
         },
         {
+          "id": "589172",
           "name": "R1 High-Fidelity Stereo Reverb",
           "imageUrl": "https://example.com/r1.jpg",
           "price": 209.99,
@@ -68,6 +77,7 @@
           "description": "The R1 High-Fidelity Stereo Reverb offers rich, natural reverb with detailed sound shaping. Elevate your sound to new heights."
         },
         {
+          "id": "341579",
           "name": "Slö Multi Texture Reverb",
           "imageUrl": "https://example.com/slo.jpg",
           "price": 219.99,
@@ -75,6 +85,7 @@
           "description": "The Slö Multi Texture Reverb combines three algorithms to provide lush, dreamy reverb tones. Create ambient soundscapes with ease."
         },
         {
+          "id": "638940",
           "name": "Slötvå Multi Texture Reverb",
           "imageUrl": "https://example.com/slotva.jpg",
           "price": 229.99,
@@ -83,12 +94,12 @@
         }
       ]
     },
-
     {
       "category": "AMP & Cab Sim, Compression, Boost, and EQ Pedals",
       "description": "Explore a variety of amp and cab simulation, compression, boost, and EQ pedals to enhance your tone.",
       "items": [
         {
+          "id": "189725",
           "name": "ACS1 Amp & Cab Simulator",
           "imageUrl": "https://example.com/acs1.jpg",
           "price": 179.99,
@@ -96,6 +107,7 @@
           "description": "The ACS1 Amp + Cab Simulator emulates the sound of various amplifiers and speaker cabinets. Get authentic amp tones in a compact pedal."
         },
         {
+          "id": "285416",
           "name": "Badwater Bass Pre-Amp & D.I.",
           "imageUrl": "https://example.com/badwater.jpg",
           "price": 139.99,
@@ -103,6 +115,7 @@
           "description": "The Badwater Bass Pre-Amp & D.I. offers powerful bass tone shaping and direct recording capabilities. Perfect for bass players on the go."
         },
         {
+          "id": "697281",
           "name": "Deep Six Compressor",
           "imageUrl": "https://example.com/deepsix.jpg",
           "price": 159.99,
@@ -110,6 +123,7 @@
           "description": "The Deep Six Compressor provides transparent compression and sustain for your guitar signal. Tame your dynamics and enhance your tone."
         },
         {
+          "id": "823645",
           "name": "EB-10 Preamp & EQ & Boost",
           "imageUrl": "https://example.com/eb10.jpg",
           "price": 189.99,
@@ -117,6 +131,7 @@
           "description": "The EB-10 Preamp // EQ // Boost offers versatile tone shaping with a built-in EQ and boost. Perfect for enhancing your guitar's sound."
         },
         {
+          "id": "401829",
           "name": "Emissary Parallel Boost",
           "imageUrl": "https://example.com/emissary.jpg",
           "price": 129.99,
@@ -124,6 +139,7 @@
           "description": "The Emissary Parallel Boost provides a clean, transparent boost to push your tone further. Keep your original tone intact while boosting the output."
         },
         {
+          "id": "129687",
           "name": "Mira Optical Compressor",
           "imageUrl": "https://example.com/mira.jpg",
           "price": 159.99,
@@ -137,6 +153,7 @@
       "description": "Find your perfect overdrive, fuzz, or distortion pedal for every style and genre.",
       "items": [
         {
+          "id": "978521",
           "name": "Eons Five-State Fuzz",
           "imageUrl": "https://example.com/eons.jpg",
           "price": 119.99,
@@ -144,6 +161,7 @@
           "description": "The Eons Five-State Fuzz provides versatile fuzz tones with five selectable modes. Unleash gritty and expressive fuzz sounds."
         },
         {
+          "id": "176543",
           "name": "Eras Five-State Distortion",
           "imageUrl": "https://example.com/eras.jpg",
           "price": 129.99,
@@ -151,6 +169,7 @@
           "description": "The Eras Five-State Distortion offers five distinct distortion flavors to match your playing style. From mild to high-gain, it has it all."
         },
         {
+          "id": "298764",
           "name": "Ages Five-State Overdrive",
           "imageUrl": "https://example.com/ages.jpg",
           "price": 109.99,
@@ -158,6 +177,7 @@
           "description": "The Ages Five-State Overdrive features five overdrive circuits for various clipping options. Sculpt your tone with this versatile pedal."
         },
         {
+          "id": "643278",
           "name": "Melee: Wall of Noise",
           "imageUrl": "https://example.com/melee.jpg",
           "price": 179.99,
@@ -165,6 +185,7 @@
           "description": "The Melee: Wall of Noise pedal is a powerful distortion unit that brings a wall of crushing sound to your setup. Perfect for heavy riffing and lead playing."
         },
         {
+          "id": "972684",
           "name": "Warhorn Mid-Range Overdrive",
           "imageUrl": "https://example.com/warhorn.jpg",
           "price": 149.99,
@@ -172,6 +193,7 @@
           "description": "The Warhorn Mid-Range Overdrive offers warm and articulate overdrive tones with a strong mid-range focus. Cut through the mix with ease."
         },
         {
+          "id": "314928",
           "name": "Voyager Preamp & Overdrive",
           "imageUrl": "https://example.com/voyager.jpg",
           "price": 169.99,
@@ -179,6 +201,7 @@
           "description": "The Voyager Preamp/Overdrive combines preamp and overdrive capabilities to shape your guitar's tone. A versatile tool for all styles."
         },
         {
+          "id": "486237",
           "name": "385 Overdrive",
           "imageUrl": "https://example.com/385.jpg",
           "price": 159.99,
@@ -186,6 +209,7 @@
           "description": "The 385 Overdrive delivers a smooth and creamy overdrive with vintage-style tones. Perfect for adding warmth and character to your sound."
         },
         {
+          "id": "812396",
           "name": "Iron Horse Distortion",
           "imageUrl": "https://example.com/ironhorse.jpg",
           "price": 169.99,
@@ -193,6 +217,7 @@
           "description": "The Iron Horse Distortion provides a wide range of distortion tones, from classic to modern. An essential tool for heavy distortion lovers."
         },
         {
+          "id": "965172",
           "name": "Janus Fuzz/Tremolo",
           "imageUrl": "https://example.com/janus.jpg",
           "price": 219.99,
@@ -200,6 +225,7 @@
           "description": "The Janus Fuzz/Tremolo combines fuzz and tremolo effects for unique and pulsating sounds. Experiment with wild textures and rhythms."
         },
         {
+          "id": "174820",
           "name": "Jupiter Multi-Clip Fuzz",
           "imageUrl": "https://example.com/jupiter.jpg",
           "price": 189.99,
@@ -207,6 +233,7 @@
           "description": "The Jupiter Multi-Clip Fuzz features various clipping options for a diverse fuzz palette. Roar with vintage or modern fuzz tones."
         },
         {
+          "id": "352481",
           "name": "Kangra Filter Fuzz",
           "imageUrl": "https://example.com/kangra.jpg",
           "price": 209.99,
@@ -220,6 +247,7 @@
       "description": "Expand your tonal horizons with a range of modulation and octave pedals to create unique sounds.",
       "items": [
         {
+          "id": "987210",
           "name": "Descent Reverb & Octave",
           "imageUrl": "https://example.com/descent.jpg",
           "price": 239.99,
@@ -227,6 +255,7 @@
           "description": "The Descent Reverb/Octave pedal offers lush reverb and octave effects for ambient soundscapes and experimental tones."
         },
         {
+          "id": "891673",
           "name": "Julia Analog Chorus & Vibrato",
           "imageUrl": "https://example.com/julia.jpg",
           "price": 199.99,
@@ -234,6 +263,7 @@
           "description": "The Julia Analog Chorus/Vibrato pedal provides lush and warm chorus or pulsating vibrato effects for beautiful modulation."
         },
         {
+          "id": "652791",
           "name": "Julianna Deluxe Chorus & Vibrato",
           "imageUrl": "https://example.com/julianna.jpg",
           "price": 279.99,
@@ -241,6 +271,7 @@
           "description": "The Julianna Deluxe Chorus/Vibrato pedal delivers a versatile modulation experience with rich chorus and dynamic vibrato effects."
         },
         {
+          "id": "192783",
           "name": "Kangra Filter Fuzz",
           "imageUrl": "https://example.com/kangra.jpg",
           "price": 209.99,
@@ -248,6 +279,7 @@
           "description": "The Kangra Filter Fuzz blends fuzz and envelope filter for dynamic and expressive sounds. Unleash funky and psychedelic tones."
         },
         {
+          "id": "426918",
           "name": "Lillian Multi-Stage Analog Phaser",
           "imageUrl": "https://example.com/lillian.jpg",
           "price": 219.99,
@@ -255,6 +287,7 @@
           "description": "The Lillian Multi-Stage Analog Phaser offers a wide range of phaser effects with four- and six-stage options for modulation exploration."
         },
         {
+          "id": "932176",
           "name": "Luminary Quad Octave Generator",
           "imageUrl": "https://example.com/luminary.jpg",
           "price": 299.99,
@@ -262,6 +295,7 @@
           "description": "The Luminary Quad Octave Generator produces lush octave sounds, from classic to experimental, for innovative musical textures."
         },
         {
+          "id": "891732",
           "name": "MAKO Series: M1 High-Fidelity Modulation Machine",
           "imageUrl": "https://example.com/mako.jpg",
           "price": 329.99,
@@ -269,6 +303,7 @@
           "description": "The MAKO Series: M1 High-Fidelity Modulation Machine offers high-quality modulation effects with precise control over various parameters."
         },
         {
+          "id": "218765",
           "name": "Monument Harmonic Tap Tremolo",
           "imageUrl": "https://example.com/monument.jpg",
           "price": 199.99,
@@ -276,6 +311,7 @@
           "description": "The Monument Harmonic Tap Tremolo provides harmonic-rich tremolo sounds with tap tempo for rhythmic precision."
         },
         {
+          "id": "698324",
           "name": "Polychrome Analog Flanger",
           "imageUrl": "https://example.com/polychrome.jpg",
           "price": 229.99,
@@ -290,6 +326,7 @@
       "description": "Explore the foundation of tone with our collection of fundamental pedals.",
       "items": [
         {
+          "id": "987432",
           "name": "Fundamental Chorus",
           "imageUrl": "https://example.com/fundamentalchorus.jpg",
           "price": 149.99,
@@ -297,6 +334,7 @@
           "description": "The Fundamental Chorus pedal offers classic chorus effects for adding depth and dimension to your sound."
         },
         {
+          "id": "897641",
           "name": "Fundamental Delay",
           "imageUrl": "https://example.com/fundamentaldelay.jpg",
           "price": 159.99,
@@ -304,6 +342,7 @@
           "description": "The Fundamental Delay pedal provides delay effects with adjustable parameters for versatile and atmospheric tones."
         },
         {
+          "id": "965723",
           "name": "Fundamental Reverb",
           "imageUrl": "https://example.com/fundamentalreverb.jpg",
           "price": 149.99,
@@ -311,6 +350,7 @@
           "description": "The Fundamental Reverb pedal delivers lush reverb effects to add space and ambiance to your playing."
         },
         {
+          "id": "182746",
           "name": "Fundamental Distortion",
           "imageUrl": "https://example.com/fundamentaldistortion.jpg",
           "price": 139.99,
@@ -318,6 +358,7 @@
           "description": "The Fundamental Distortion pedal provides distortion effects to add grit and overdrive to your tone."
         },
         {
+          "id": "764198",
           "name": "Fundamental Drive",
           "imageUrl": "https://example.com/fundamentaldrive.jpg",
           "price": 129.99,
@@ -325,6 +366,7 @@
           "description": "The Fundamental Drive pedal offers smooth overdrive effects for expressive and dynamic playing."
         },
         {
+          "id": "689234",
           "name": "Fundamental Fuzz",
           "imageUrl": "https://example.com/fundamentalfuzz.jpg",
           "price": 139.99,
@@ -332,6 +374,7 @@
           "description": "The Fundamental Fuzz pedal delivers classic fuzz tones for a wide range of musical styles."
         },
         {
+          "id": "237815",
           "name": "Fundamental Tremolo",
           "imageUrl": "https://example.com/fundamentaltremolo.jpg",
           "price": 129.99,
@@ -339,11 +382,20 @@
           "description": "The Fundamental Tremolo pedal provides versatile tremolo effects for rhythmic and pulsating sounds."
         },
         {
+          "id": "792468",
           "name": "Fundamental Phaser",
           "imageUrl": "https://example.com/fundamentalphaser.jpg",
           "price": 149.99,
           "colors": ["Red", "Gold"],
           "description": "The Fundamental Phaser pedal offers classic phaser effects for adding movement and texture to your tone."
+        },
+        {
+          "id": "578421",
+          "name": "Fundamental EQ",
+          "imageUrl": "https://example.com/fundamentaleq.jpg",
+          "price": 119.99,
+          "colors": ["Blue", "Silver"],
+          "description": "The Fundamental EQ pedal provides precise control over your guitar's tone with adjustable EQ bands."
         }
       ]
     }
