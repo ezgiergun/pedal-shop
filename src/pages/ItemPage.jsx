@@ -4,11 +4,13 @@ import { formatBack } from "../utils/FormatProductName";
 import SupportNav from "../components/SupportNav";
 import PageNav from "../components/PageNav";
 import { CartContext } from "../context/cartContext";
-import { useContext, useState } from "react";
+import { useContext } from "react";
 import CartDisplay from "../components/cartDisplay";
 
 function ItemPage() {
-  const [isCartDisplayVisible, setCartDisplayVisible] = useState(false);
+  const { isCartDisplayVisible, setCartDisplayVisible, addToCart } =
+    useContext(CartContext);
+  const { productName } = useParams();
 
   const handleAddToCart = () => {
     addToCart(selectedItem);
@@ -18,8 +20,7 @@ function ItemPage() {
   const handleCloseCartDisplay = () => {
     setCartDisplayVisible(false);
   };
-  const { addToCart } = useContext(CartContext);
-  const { productName } = useParams();
+
   const productNameFormat = formatBack(productName);
   console.log(productNameFormat);
   let selectedItem;

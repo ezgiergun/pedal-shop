@@ -7,6 +7,7 @@ export const CartProvider = ({ children }) => {
   const [cartItems, setCartItems] = useState([]);
   const [isCartDisplayVisible, setCartDisplayVisible] = useState(false);
   const cartRef = useRef(null);
+
   const addToCart = (item) => {
     const existingItemIndex = cartItems.findIndex(
       (cartItem) => cartItem.name === item.name,
@@ -61,6 +62,7 @@ export const CartProvider = ({ children }) => {
         isCartDisplayVisible,
         closeCartDisplay,
         cartRef,
+        setCartDisplayVisible,
       }}
     >
       {children}

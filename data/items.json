@@ -19,7 +19,7 @@
           "description": "The Fable Granular Soundscape Generator creates immersive soundscapes using granular synthesis. Get lost in a world of unique sonic possibilities."
         },
         {
-          "name": "Melee: Wall of Noise",
+          "name": "Melee Wall of Noise",
           "imageUrl": "https://example.com/melee.jpg",
           "price": 179.99,
           "colors": ["Red", "Black"],

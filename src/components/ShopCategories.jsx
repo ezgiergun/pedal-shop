@@ -1,5 +1,6 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import itemsData from "../../data/items.json";
+import { formatProductName } from "../utils/FormatProductName";
 
 function ShopCategories() {
   return (
@@ -13,21 +14,21 @@ function ShopCategories() {
       <div className="grid grid-cols-5 gap-4">
         {itemsData.categories.map((category, index) => (
           <div key={index}>
-            <Link
+            <NavLink
               to={`/category/${encodeURIComponent(category.category)}`}
               className="mb-2 block text-xl font-bold text-blue-600 hover:underline"
             >
               {category.category}
-            </Link>
+            </NavLink>
             <ul>
               {category.items.map((item, itemIndex) => (
                 <li key={itemIndex} className="mb-1">
-                  <Link
-                    to={`/item/${encodeURIComponent(item.name)}`}
+                  <NavLink
+                    to={`/products/${formatProductName(item.name)}`}
                     className="text-blue-600 hover:underline"
                   >
                     {item.name}
-                  </Link>
+                  </NavLink>
                 </li>
               ))}
             </ul>

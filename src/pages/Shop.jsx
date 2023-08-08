@@ -3,7 +3,7 @@ import PageNav from "../components/PageNav";
 import SupportNav from "../components/SupportNav";
 import ItemCard from "../components/ItemCard";
 import itemsData from "../../data/items.json";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { formatProductName } from "../utils/FormatProductName";
 
 function Shop() {
@@ -24,13 +24,13 @@ function Shop() {
           >
             {category.items.map((item, itemIndex) => (
               <div key={itemIndex} className="w-80">
-                <Link to={`/products/${formatProductName(item.name)}`}>
+                <NavLink to={`/products/${formatProductName(item.name)}`}>
                   <ItemCard
                     name={item.name}
                     imageUrl={item.imageUrl}
                     price={item.price}
                   />
-                </Link>
+                </NavLink>
               </div>
             ))}
           </div>
