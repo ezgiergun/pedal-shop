@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import itemsData from "../../data/items.json";
+import { categories } from "../../data/items.json";
 import { formatBack } from "../utils/FormatProductName";
 import SupportNav from "../components/SupportNav";
 import PageNav from "../components/PageNav";
@@ -13,7 +13,7 @@ function ItemPage() {
   const { productName } = useParams();
 
   const handleAddToCart = () => {
-    addToCart(selectedItem);
+    addToCart(item);
     setCartDisplayVisible(true);
   };
 
@@ -21,21 +21,17 @@ function ItemPage() {
     setCartDisplayVisible(false);
   };
 
-  const productNameFormat = formatBack(productName);
-  console.log(productNameFormat);
-  let selectedItem;
-  for (const category of itemsData.categories) {
-    selectedItem = category.items.find(
-      (item) => (item.name = productNameFormat),
-    );
-    if (selectedItem) break;
-  }
+  const productNameFormatted = formatBack(productName);
 
-  if (!selectedItem) {
+  const item = categories
+    .flatMap((category) => category.items)
+    .find((item) => item.name === productNameFormatted);
+
+  if (!item) {
     return <div>Item not found</div>;
   }
 
-  const { name, imageUrl, price, colors, description } = selectedItem;
+  const { name, imageUrl, price, colors, description } = item;
 
   return (
     <>
@@ -44,7 +40,11 @@ function ItemPage() {
       <div className=" mt-10 flex justify-center">
         <div className="flex w-full max-w-7xl gap-16 p-8 ">
           <div className="flex-shrink-0">
-            <img src={imageUrl} alt={name} className="h-auto w-auto" />
+            <img
+              src={imageUrl && `https://placehold.co/615x615/blue/white`}
+              alt={name}
+              className="h-auto w-auto"
+            />
           </div>
           <div className=" w-auto flex-grow">
             <h2 className="mb-4 text-2xl font-bold">{name}</h2>
