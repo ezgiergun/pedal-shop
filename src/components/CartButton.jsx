@@ -10,11 +10,11 @@ function CartButton() {
   };
   return (
     <>
-      <button className="" onClick={handleCartClick}>
+      <button className="mt-1" onClick={handleCartClick}>
         {cartIcon}
       </button>
       {cartItems.length > 0 && (
-        <span className="rounded-full bg-red-500 px-2 py-1 text-xs text-white">
+        <span className="rounded-full px-2 py-1 text-xs text-white">
           {cartItems.length}
         </span>
       )}

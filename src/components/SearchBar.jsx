@@ -35,7 +35,7 @@ function SearchBar() {
 
   return (
     <div className="search-bar">
-      <ul className="mr-5 flex items-center justify-end gap-1">
+      <ul className="mr-5 flex items-center justify-end gap-1 bg-red-200">
         <li>
           <div>
             <input
@@ -50,7 +50,7 @@ function SearchBar() {
                 backgroundSize: "20px 20px",
                 paddingRight: "40px",
               }}
-              className="mr-4 rounded-lg px-4 py-2"
+              className="mr-4 hidden rounded-lg px-4 py-2 sm:flex md:flex lg:flex"
             />
             {query && filteredItems.length > 0 && (
               <div className="absolute mt-2 w-48 rounded-lg border bg-white shadow-md">

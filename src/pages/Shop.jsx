@@ -8,22 +8,28 @@ import { formatProductName } from "../utils/FormatProductName";
 
 function Shop() {
   return (
-    <div>
+    <div className="">
       <SupportNav />
       <PageNav />
 
       {itemsData.categories.map((category, index) => (
-        <div key={index} className="my-8">
+        <div
+          key={index}
+          className="
+        sm:my-8"
+        >
           <CategoryCard
             categoryName={category.category}
             description={category.description}
           />
           <div
-            className="mx-auto ml-52 flex flex-wrap justify-start gap-2"
+            className=" m-0 grid justify-center gap-10
+            
+            sm:mx-auto sm:ml-52 sm:flex  sm:flex-wrap sm:justify-start sm:gap-2 "
             style={{ maxWidth: "1200px" }}
           >
             {category.items.map((item, itemIndex) => (
-              <div key={itemIndex} className="w-80">
+              <div key={itemIndex} className="ml-20 w-3/5 p-0 sm:mb-1 sm:w-80">
                 <NavLink to={`/products/${formatProductName(item.name)}`}>
                   <ItemCard
                     name={item.name}

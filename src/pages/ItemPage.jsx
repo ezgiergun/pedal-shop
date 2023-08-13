@@ -37,21 +37,26 @@ function ItemPage() {
     <>
       <SupportNav />
       <PageNav />
-      <div className=" mt-10 flex justify-center">
-        <div className="flex w-full max-w-7xl gap-16 p-8 ">
-          <div className="flex-shrink-0">
+      <div className=" ml-5 flex items-center text-center sm:m-16 sm:mt-10">
+        <div className="justify-center p-8 sm:flex sm:w-full sm:max-w-7xl sm:gap-16 ">
+          <div className="sm:flex-shrink-0">
             <img
               src={imageUrl && `https://placehold.co/615x615/blue/white`}
               alt={name}
-              className="h-auto w-auto"
+              className="m-auto h-auto w-2/3
+               sm:h-auto sm:w-auto"
             />
           </div>
-          <div className=" w-auto flex-grow">
-            <h2 className="mb-4 text-2xl font-bold">{name}</h2>
-            <p className="mb-4 text-xl font-semibold">${price.toFixed(2)}</p>
-            <p className="mb-4 w-[400px] text-zinc-600 ">{description}</p>
+          <div className="m-auto w-2/3 sm:w-auto sm:flex-grow">
+            <h2 className="mb-2 mt-4 text-xl font-semibold sm:mb-4 sm:text-2xl sm:font-bold">
+              {name}
+            </h2>
+            <p className="mb-4 text-lg font-semibold sm:text-xl">
+              ${price.toFixed(2)}
+            </p>
+            <p className="mb-4 text-zinc-600 sm:w-[400px] ">{description}</p>
             <div className="mb-4">
-              <p className="mb-2 font-semibold">Colors:</p>
+              <p className="font-semibold sm:mb-2">Colors:</p>
               <div className="flex items-center gap-2">
                 {colors.map((color, index) => (
                   <div
@@ -65,11 +70,11 @@ function ItemPage() {
             <div className="items-center justify-center">
               <button
                 onClick={handleAddToCart}
-                className="mb-4 w-4/5  rounded-md bg-blue-600 px-4 py-4 text-white"
+                className="mb-4 rounded-md  bg-blue-600 px-4 py-4 text-white sm:w-4/5"
               >
                 ADD TO CART
               </button>
-              <button className="ml-32 block text-blue-600">
+              <button className="m-auto block text-blue-600">
                 More payment options
               </button>
             </div>
